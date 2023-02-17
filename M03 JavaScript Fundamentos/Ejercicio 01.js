@@ -5,13 +5,13 @@
 // por el correspondiente.
 
 // Crea una variable de tipo string.
-const nuevoString = "BIENVENIDO";
+const nuevoString ="ss" ;
 
 // Crea una variable de tipo number.
-const nuevoNumero = 3526 ;
+const nuevoNumero = 3526;
 
 // Crea una variable de tipo boolean.
-const nuevoBoolean = TRUE;
+const nuevoBoolean = false;
 
 // Resuelve el siguiente problema matemático.
 const nuevaResta = 10 - 7 === 3;
