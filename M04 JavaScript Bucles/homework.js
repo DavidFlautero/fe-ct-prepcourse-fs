@@ -5,6 +5,17 @@ function obtenerMayor(x, y) {
    // Retornar el número más grande.
    // Si son iguales, retornar cualquiera de los dos.
    // Tu código:
+   if(x>y){
+      return x;
+   }else if(y>x){
+      return y;
+   }else if(x==y){
+      return x;
+
+   }
+
+
+
 }
 
 function mayoriaDeEdad(edad) {
@@ -12,6 +23,7 @@ function mayoriaDeEdad(edad) {
    // Si tiene 18 años ó más debe retornar el string: "Allowed".
    // Caso contrario: "Not allowed".
    // Tu código:
+
 }
 
 function conection(status) {
@@ -30,6 +42,20 @@ function saludo(idioma) {
    // Si "idioma" es "ingles", devuelve "Hello!".
    // Si "idioma" no es ninguno de los anteriores o es `undefined` devuelve "Hola!".
    // Tu código:
+   switch(idioma){
+      case "aleman":
+         return ("Guten Tag!");
+      case "mandarin":
+         return ("Ni Hao!");
+      case "ingles":
+         return("Hello!") ;  
+      default:
+            return( "Hola!" );   
+
+
+
+
+   }
 }
 
 function colors(color) {
@@ -108,6 +134,8 @@ function doWhile(num) {
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
    // Tu código:
+ 
+
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
